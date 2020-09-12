@@ -18,8 +18,13 @@
     <ClCompile Include="Hangman.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gameStart.cpp">
+    <ClCompile Include="gameCore.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gameCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

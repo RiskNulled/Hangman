@@ -3,14 +3,7 @@
 #include <stdlib.h>
 #include <regex>
 
-void gameStart(int lives, int wlength, std::string word);
-
-void sConfirm(int lives, std::string word)
-{
-    std::cout << "Your word is " << word << "!" << std::endl;
-    std::cout << "Starting...";
-    Sleep(3000);
-}
+#include "gameCore.h"
 
 int main()
 {
